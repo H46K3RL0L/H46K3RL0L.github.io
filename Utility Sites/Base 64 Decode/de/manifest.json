@@ -1,0 +1,24 @@
+{
+  "short_name": "Base64 Dekodieren",
+  "name": "Base64 Dekodieren und Kodieren",
+  "lang": "de",
+  "icons": [
+    {
+      "src": "https://cdn.base64decode.org/assets/images/b64-180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "https://cdn.base64decode.org/assets/images/b64-32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "https://cdn.base64decode.org/assets/images/b64-16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    }
+  ],
+  "background_color": "#439a00",
+  "theme_color": "#5fa926"
+}

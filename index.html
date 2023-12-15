@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title id='Title'>Page Title</title>
+    <link rel='stylesheet' href='style.css'>
+    <link rel="icon" href="https://visualpharm.com/assets/356/Google%20Classroom-595b40b65ba036ed117d4179.svg">
+</head>
+<body>
+    <form>
+<script src='main.js'></script>
+<script src='utils.js'></script>
+<h1>Random JavaScript Stuff</h1><img src='JavaScriptLogo.jpeg'>
+<h2>Find how long javascript takes to count to certain numbers</h2>
+<h4>Input number to count to. (Less than 50139473 when multiplied by input field below this one's number for some reason. Also, dont even try to put decimals, with my bad code it breaks everything cause I don't let you.)</h4>
+<input type='number' placeholder='1000000' id='amount' value=1000000>
+<h4>How many times to run the test?</h4>
+<input type='number' placeholder='50' id='runtimes' value=10>
+<h4>Input number to find how long it takes to count to on avg.</h4>
+<input type='number' placeholder='1000000000' id='amount2' value=1000000000>
+<br>
+<br>
+<br>
+</form>
+<h4 id='results'>filler until run</h4>
+<button id='start'>Run</button>
+<br>
+<br>
+<h2>Page Title Changer</h2>
+<input type='text' placeholder='Page Title' id='pageTitle' value='Page Title'>
+<br>
+<br>
+<h2>Pythagorean Theorem Calculator</h2>
+<h4>Find Hypotenuse(C)</h4>
+<input type='number' placeholder='A' id='A1' value=''>
+<input type='number' placeholder='B' id='B1' value=''>
+<h4 type='number' id='C1'></h4>
+<h4>Find A</h4>
+<input type='number' placeholder='C' id='C2' value=''>
+<input type='number' placeholder='B' id='B2' value=''>
+<h4 type='number' id='A2'></h4>
+<h4>Find B</h4>
+<input type='number' placeholder='C' id='C3' value=''>
+<input type='number' placeholder='A' id='A3' value=''>
+<h4 type='number' id='B4'></h4>
+<h2>Math Stuff</h2>
+<h3>Sine Calculator</h4>
+<input type='number' placeholder='Sine' id='sineInput' value=''>
+<h4 type="number" id="sineResult"></h4>
+<h3>Cosine Calculator</h4>
+<input type='number' placeholder='Cosine' id='cosineInput' value=''>
+<h4 type="number" id="cosineResult"></h4>
+<h3>Logarithm Calculator</h4>
+<input type='number' placeholder='Logarithm' id='logarithmInput' value=''>
+<h4 type="number" id="logarithmResult"></h4>
+<h3>Tangent Calculator</h4>
+<input type='number' placeholder='Tangent' id='tangentInput' value=''>
+<h4 type="number" id="tangentResult"></h4>
+<h3>Square Root Calculator</h4>
+<input type='number' placeholder='Square Root' id='sqrtInput' value=''>
+<h4 type="number" id="sqrtResult"></h4>
+<h3>Random Number Generator</h4>
+<input type='number' placeholder='Minimum' id='minInput' value=''>
+<input type='number' placeholder='Maximum' id='maxInput' value=''>
+<h6>Check to allow decimals</h6><input type="checkbox" id="allowDec" checked=false>
+<br>
+<button id='generate'>Generate</button>
+<h4 type="number" id="random" value=''></h4>
+
+<script>
+    setInterval(function checkInt() {
+        document.getElementById('amount').value = Math.round(document.getElementById('amount').value);
+        document.getElementById('runtimes').value = Math.round(document.getElementById('runtimes').value);
+        document.getElementById('amount2').value = Math.round(document.getElementById('amount2').value);
+    }, 1);
+    setInterval(function(){
+    if(document.getElementById('allowDec').checked == false) {
+        document.getElementById('minInput').value = Math.round(document.getElementById('minInput').value);
+        document.getElementById('maxInput').value = Math.round(document.getElementById('maxInput').value);    
+    } else if(document.getElementById('allowDec').checked == true) { 
+
+    } else {
+            console.log("This REALLY shouldn't happen.")
+        }
+}, 1);
+</script>
+<a href="mailto:TH3TRU33RR0R@gmail.com">Send Email or Bug Report</a>
+<br>
+<a href='./gameHub.html'>Random Stuff (Game and Utilities Hub)</a>
+</body>
+</html>

@@ -1,0 +1,136 @@
+Uri: https://cdn.base64encode.org/assets/build/bundle.20bfa4134ab9bbf81ade68475ed8872e8ba52afe.js
+File Name: C:\Downloaded Web Sites\www.base64encode.org\assets\build\bundle.20bfa4134ab9bbf81ade68475ed8872e8ba52afe.js
+Content Type: application/javascript
+
+Uri: https://cdn.base64encode.org/assets/fonts/fa-solid-900.woff?v=3
+File Name: C:\Downloaded Web Sites\www.base64encode.org\assets\fonts\fa-solid-900.woff
+Content Type: font/woff
+
+Uri: https://cdn.base64encode.org/assets/images/b64-16.png
+File Name: C:\Downloaded Web Sites\www.base64encode.org\assets\images\b64-16.png
+Content Type: image/png
+
+Uri: https://cdn.base64encode.org/assets/images/b64-180.png
+File Name: C:\Downloaded Web Sites\www.base64encode.org\assets\images\b64-180.png
+Content Type: image/png
+
+Uri: https://cdn.base64encode.org/assets/images/b64-32.png
+File Name: C:\Downloaded Web Sites\www.base64encode.org\assets\images\b64-32.png
+Content Type: image/png
+
+Uri: https://cdn.base64encode.org/assets/images/pattern.svg
+File Name: C:\Downloaded Web Sites\www.base64encode.org\assets\images\pattern.svg
+Content Type: image/svg+xml
+
+Uri: https://www.base64encode.org/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/de/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\de\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/de/manifest.json
+File Name: C:\Downloaded Web Sites\www.base64encode.org\de\manifest.json
+Content Type: application/json
+
+Uri: https://www.base64encode.org/de/privacy/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\de\privacy\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/es/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\es\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/es/manifest.json
+File Name: C:\Downloaded Web Sites\www.base64encode.org\es\manifest.json
+Content Type: application/json
+
+Uri: https://www.base64encode.org/es/privacy/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\es\privacy\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/fr/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\fr\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/fr/manifest.json
+File Name: C:\Downloaded Web Sites\www.base64encode.org\fr\manifest.json
+Content Type: application/json
+
+Uri: https://www.base64encode.org/fr/privacy/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\fr\privacy\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/hi/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\hi\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/hi/manifest.json
+File Name: C:\Downloaded Web Sites\www.base64encode.org\hi\manifest.json
+Content Type: application/json
+
+Uri: https://www.base64encode.org/hi/privacy/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\hi\privacy\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/ko/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\ko\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/ko/manifest.json
+File Name: C:\Downloaded Web Sites\www.base64encode.org\ko\manifest.json
+Content Type: application/json
+
+Uri: https://www.base64encode.org/ko/privacy/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\ko\privacy\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/manifest.json
+File Name: C:\Downloaded Web Sites\www.base64encode.org\manifest.json
+Content Type: application/json
+
+Uri: https://www.base64encode.org/privacy/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\privacy\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/pt/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\pt\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/pt/manifest.json
+File Name: C:\Downloaded Web Sites\www.base64encode.org\pt\manifest.json
+Content Type: application/json
+
+Uri: https://www.base64encode.org/pt/privacy/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\pt\privacy\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/ru/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\ru\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/ru/manifest.json
+File Name: C:\Downloaded Web Sites\www.base64encode.org\ru\manifest.json
+Content Type: application/json
+
+Uri: https://www.base64encode.org/ru/privacy/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\ru\privacy\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/zh/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\zh\index.htm
+Content Type: text/html
+
+Uri: https://www.base64encode.org/zh/manifest.json
+File Name: C:\Downloaded Web Sites\www.base64encode.org\zh\manifest.json
+Content Type: application/json
+
+Uri: https://www.base64encode.org/zh/privacy/
+File Name: C:\Downloaded Web Sites\www.base64encode.org\zh\privacy\index.htm
+Content Type: text/html
+
+Uri: https://www.googletagmanager.com/gtag/js?id=G-VMJLY862FR
+File Name: C:\Downloaded Web Sites\www.base64encode.org\gtag\js
+Content Type: application/javascript
+
