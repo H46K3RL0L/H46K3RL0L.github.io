@@ -1,4 +1,5 @@
-"use strict";
+'esversion: 7';
+'use strict';
 //Make a shortcut for document.getElementById
 function get(id) {
     try {
@@ -47,10 +48,10 @@ console.log = function (data) {
         get('C1').value = 'A and B should be positive.';
     }
     if(get('C2').value < 0.00000000000000001 || get('B2').value < 0.00000000000000001) {
-        get('A2').value = 'C and B should be positive.'
+        get('A2').value = 'C and B should be positive.';
     }
     if(get('C3').value < 0.00000000000000001 || get('A3').value < 0.00000000000000001) {
-        get('B4').value = 'C and A should be positive.'
+        get('B4').value = 'C and A should be positive.';
     }
 }
 //Declare the function that updates the page and checks user input for errors
@@ -91,8 +92,6 @@ function averageOf(inputarray) {
     var amount = 0;
     var runtimes = 0;
     var amount2 = 0;
-    // JavaScript for Page 1
-function page1Init() {
         //Check if html is loaded before running the function that updates the page or letting the run button function
         document.addEventListener("DOMContentLoaded", function() {
             setInterval(function(){
@@ -129,35 +128,3 @@ function page1Init() {
                 get('results').innerText = averageOf(array);
            };
         });
-}
-
-// JavaScript for Page 2
-function page2Init() {
-    document.addEventListener("DOMContentLoaded", function() {
-        setTimeout(function() {
-            const canvas = get('canvas');
-    
-            if (!canvas) {
-                console.error("Canvas element with ID 'canvas' not found.");
-                return;
-            }
-    
-            const ctx = canvas.getContext("2d");
-    
-        }, 50);
-    });
-}
-function commonInit() {
-    
-}
-
-// Run code based on the current page
-if (window.location.pathname === './index.html') {
-    commonInit();
-    page1Init();
-} else if (window.location.pathname === './test.html') {
-    commonInit();
-    page2Init();
-} else if (window.location.pathname === './gameHub.html') {
-    //gameHubinit someday?
-}
