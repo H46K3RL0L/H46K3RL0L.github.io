@@ -1,29 +1,7 @@
 'esversion: 7';
 'use strict';
-//Make a shortcut for document.getElementById
-function get(id) {
-    try {
-        return document.getElementById(id);
-    } catch (error) {
-        console.error("Error in get function:", error);
-        return null;
-    }
-}
-
-//Make random number functions.
-function randomNumber(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + parseInt(min);
-}
-function randomNumberFloat(min, max) {
-    return (Math.random() * (max - min + 1)) + parseFloat(min);
-}
-
-//Backup console.log
-var consolelog = console.log();
-//Set console.log to a new function
-console.log = function (data) {
-    alert(data);
-  };
+//import stuff from utils.js
+import * as utils from './utils.js';
   //Declare function that does math stuff
   function doMathStuff() {
     get('sineResult').innerText = Math.sin(get('sineInput').value);

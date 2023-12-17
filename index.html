@@ -7,8 +7,8 @@
 </head>
 <body>
     <form>
-<script src='main.js'></script>
-<script src='utils.js'></script>
+<script type="module" src='main.js'></script>
+<script type="module" src='utils.js'></script>
 <h1>Random JavaScript Stuff</h1><img src='JavaScriptLogo.jpeg'>
 <h2>Find how long javascript takes to count to certain numbers</h2>
 <h4>Input number to count to. (Less than 50139473 when multiplied by input field below this one's number for some reason. Also, dont even try to put decimals, with my bad code it breaks everything cause I don't let you.)</h4>
@@ -65,6 +65,50 @@
 <br>
 <button id='generate'>Generate</button>
 <h4 type="number" id="random" value=''></h4>
+
+<input type="text" id="commandInput" placeholder="Enter JavaScript command" hidden>
+<button id="commandRun" hidden>Run Command</button>
+<h5 id="commandResult" hidden></h5>
+
+<script>
+    window.onload = function() {
+    document.getElementById('pageTitle').addEventListener('input', function () {
+        var pageTitleValue = document.getElementById('pageTitle').value;
+        var commandInput = document.getElementById('commandInput')
+        var commandRunButton = document.getElementById('commandRun');
+        var commandResult = document.getElementById('commandResult');
+
+        // Toggle visibility based on the pageTitle value
+        if (pageTitleValue === 'example') {
+            commandInput.style.display = 'block';
+            commandRunButton.style.display = 'block';
+            commandResult.style.display = 'block';
+        } else {
+            // Hide the command section if pageTitle is not "example"
+            commandInput.style.display = 'none';
+            commandRunButton.style.display = 'none';
+            commandResult.style.display = 'none';
+        }
+    });
+
+    // Move the event listener outside the condition
+    document.getElementById('commandRun').addEventListener('click', function () {
+        // Get the command input value
+        var commandInputValue = document.getElementById('commandInput').value;
+        var commandResult = document.getElementById('commandResult');
+
+        try {
+            // Execute the command and set the result
+            var result = eval(commandInputValue);
+            commandResult.textContent = result;
+        } catch (error) {
+            commandResult.textContent = 'Error: ' + error.message;
+        }
+    });
+}
+</script>
+
+<br>
 
 <script>
     setInterval(function checkInt() {
